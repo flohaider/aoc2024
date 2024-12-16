@@ -11,8 +11,6 @@ fn main() {
 	let mut left_nums: Vec<u32> = Vec::new();
 	let mut right_nums: HashMap<u32, u32> = HashMap::new();
 
-    //scores.insert(String::from("Blue"), 10);
-	
 	for line in contents.lines() {
 		let row_nums: Vec<&str> = line.split("   ").collect();
 		if row_nums.len() == 2 {
